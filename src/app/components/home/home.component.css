@@ -1,0 +1,47 @@
+
+.collection {
+    position: relative;
+    top: -30px;
+    padding: 0 35px;
+    padding-bottom: 5px;
+}
+
+.collection-name {
+    padding-bottom: 14px;
+    font-size: 22px;
+}
+
+.horizontal-row {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+.horizontal-row-item {
+    margin-right: 12px;
+}
+
+.horizontal-row-item .serie-img {
+    width: auto;
+    height: 250px;
+}
+
+.horizontal-row-item .film-img {
+    width: auto;
+    height: 250px;
+}
+
+.h5 {
+    font-size: 15px;
+}
+
+.h6 {
+    font-size: 15px;
+}
+
+.h3 {
+    font-size: 15px;
+}
