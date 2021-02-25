@@ -1,0 +1,44 @@
+
+.collection {
+    position: relative;
+    top: -30px;
+    padding: 0 35px;
+    padding-bottom: 25px;
+}
+
+.collection-name {
+    padding-bottom: 14px;
+    font-size: 22px;
+}
+
+.horizontal-row {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+.horizontal-row-item {
+    margin-right: 10px;
+}
+
+.horizontal-row-item .film-img {
+    width: auto;
+    height: 450px;
+}
+
+.h5 {
+    font-size: 15px;
+    font-family: Helvetica;
+}
+
+.h6 {
+    font-size: 15px;
+    font-family: Helvetica;
+   }
+
+.h3 {
+    font-size: 20px;
+}

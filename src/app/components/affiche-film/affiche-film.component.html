@@ -1,0 +1,10 @@
+  <section class="collection">
+    <h3 class="collection-name">Vos films du moment...</h3>
+      <ul class="horizontal-row">
+        <li *ngFor="let film of films" class="horizontal-row-item" [routerLink]="['/detailfilm', film.id]">
+          <img class="film-img" src="https://image.tmdb.org/t/p/w500{{film.poster_path}}" alt="{{film.title}}">
+          <h5 class="row-item-title">{{ film.title }}</h5>
+          <h6 class="row-item-title">{{ film.vote_average }}</h6>
+      </li>
+      </ul>
+  </section>

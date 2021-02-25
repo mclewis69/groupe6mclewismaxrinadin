@@ -1,0 +1,11 @@
+
+  <section class="collection">
+    <h3 class="collection-name">Vos series du moment...</h3>
+      <ul class="horizontal-row">
+        <li *ngFor="let serie of series" class="horizontal-row-item" [routerLink]="['/detailserie', serie.id]">
+          <img class="serie-img" src="https://image.tmdb.org/t/p/w500{{serie.poster_path}}" alt="{{serie.title}}">
+          <h5 class="row-item-title">{{ serie.title }}</h5>
+          <h6 class="row-item-title">{{ serie.vote_average }}</h6>
+      </li>
+      </ul>
+  </section>
